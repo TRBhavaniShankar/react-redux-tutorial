@@ -6,6 +6,8 @@ import ObjectComponent from './components/ObjectComponent';
 import UseEffectHook from './components/UseEffectHook';
 import HookMouse from './components/HookMouse';
 import MouseContainer from './components/MouseContainer';
+import IntervalHookCount from './components/IntervalHookCount';
+import DataFetching from './components/DataFetching';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       {/* <ObjectComponent /> */}
       {/* <UseEffectHook /> */}
       {/* <HookMouse /> */}
-      <MouseContainer />
+      {/* <MouseContainer /> */}
+      {/* <IntervalHookCount /> */}
+      <DataFetching />
     </div>
   );
 }
