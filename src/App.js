@@ -14,6 +14,8 @@ import Counter1 from './components/Counter1';
 import Counter2 from './components/Counter2';
 import DataFetchingOne from './components/DataFetchingOne';
 import DataFetchingTwo from './components/DataFetchingTwo';
+import ParentUC from './components/ParentUC';
+import CounterUseMemo from './components/CounterUseMemo';
 
 export const UserContext = React.createContext()
 
@@ -21,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <DataFetchingTwo />
+      <CounterUseMemo />
     </div>
   );
 }
