@@ -16,6 +16,8 @@ import DataFetchingOne from './components/DataFetchingOne';
 import DataFetchingTwo from './components/DataFetchingTwo';
 import ParentUC from './components/ParentUC';
 import CounterUseMemo from './components/CounterUseMemo';
+import Focusinput from './components/Focusinput';
+import HookTimer from './components/HookTimer';
 
 export const UserContext = React.createContext()
 
@@ -23,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <CounterUseMemo />
+      <HookTimer />
     </div>
   );
 }
