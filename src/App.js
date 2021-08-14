@@ -8,18 +8,16 @@ import HookMouse from './components/HookMouse';
 import MouseContainer from './components/MouseContainer';
 import IntervalHookCount from './components/IntervalHookCount';
 import DataFetching from './components/DataFetching';
+import ComponentC from './components/ComponentC';
+import React from 'react'
+
+export const UserContext = React.createContext()
 
 function App() {
+
   return (
     <div className="App">
-      {/* <HookComponent /> */}
-      {/* <HookCounterTwo /> */}
-      {/* <ObjectComponent /> */}
-      {/* <UseEffectHook /> */}
-      {/* <HookMouse /> */}
-      {/* <MouseContainer /> */}
-      {/* <IntervalHookCount /> */}
-      <DataFetching />
+      
     </div>
   );
 }
