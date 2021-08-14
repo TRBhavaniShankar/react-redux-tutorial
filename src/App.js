@@ -10,6 +10,10 @@ import IntervalHookCount from './components/IntervalHookCount';
 import DataFetching from './components/DataFetching';
 import ComponentC from './components/ComponentC';
 import React from 'react'
+import Counter1 from './components/Counter1';
+import Counter2 from './components/Counter2';
+import DataFetchingOne from './components/DataFetchingOne';
+import DataFetchingTwo from './components/DataFetchingTwo';
 
 export const UserContext = React.createContext()
 
@@ -17,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      
+      <DataFetchingTwo />
     </div>
   );
 }
